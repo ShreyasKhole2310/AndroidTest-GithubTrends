@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_layout"
+    android:padding="@dimen/padding">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size"
+        android:text="Name"
+        android:textColor="@color/text_color"
+        android:id="@+id/name"
+        android:textStyle="bold"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/small_text"
+        android:text="Name"
+        android:textColor="@color/text_color"
+        android:id="@+id/repo_lang"
+      android:layout_below="@id/name"/>
+</RelativeLayout>

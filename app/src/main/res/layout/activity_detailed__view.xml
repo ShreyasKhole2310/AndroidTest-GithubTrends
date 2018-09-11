@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding"
+    android:orientation="vertical"
+    tools:context=".Detailed_View">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_fullname"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/text_color"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_created_at"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/small_text"
+        android:layout_marginTop="10dp"
+        android:text="@string/app_name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_updated_at"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_forks"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_open_issues"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_score"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_name"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/html_url"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/repo_desc"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="10dp"
+        android:textSize="@dimen/small_text"
+
+        android:text="@string/app_name"/>
+</LinearLayout>
